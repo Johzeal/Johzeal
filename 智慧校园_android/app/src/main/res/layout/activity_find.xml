@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@mipmap/hsd_two"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/terminal"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/finalresult_btn" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/used"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/used_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/stdlife"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/stdlife_btn"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/library"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/library_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/calendar"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/calendar_btn"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/car"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/car_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/mandarin"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/mandarin_btn"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/cet"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:id="@+id/cet_btn"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.1"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/school_gray2"
+                android:id="@+id/schoolgray_btn2"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/find_blue2"
+                android:id="@+id/findblue_btn2"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/my_gray2"
+                android:id="@+id/mygray_btn2"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

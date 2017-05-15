@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@mipmap/hsd_one"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签到状态："
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/state"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所在位置："
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/position"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否有课："
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/course"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+
+
+</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/health"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/health_btn"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/schedule"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/schedule_btn"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/sign_in"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/signin_btn"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:scaleType="fitXY">
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/classroom"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/classroom_btn"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/water"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/water_btn"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/diningroom"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/dining_btn"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/school_blue2"
+                android:id="@+id/schoolblue_btn1"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/find_gray2"
+                android:id="@+id/findgray_btn1"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/my_gray2"
+                android:id="@+id/mygray_btn1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
